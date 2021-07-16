@@ -1,2 +1,2 @@
-# Study_Raspi
-라즈베리파이 with Python
+# StudyRaspberry21
+라즈베리파이 파이썬

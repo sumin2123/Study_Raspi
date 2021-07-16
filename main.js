@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Node.js webpage</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-</head>
-
-<body>
-    <h1>Node.js 제목</h1>
-    <h3>부제목</h3>
-    <p>Node.js를 배우고 있는 페이지 입니다.</p>
-</body>
-
-</html>
-<!DOCTYPE html>
+// javarscipt Node.js 
+var http = require('http');  //
+http.createServer(function (req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello Node.Js\n');
+}).listen(8080, '127.0.0.1');
+console.log('Server is running at http://127.0.0.1:8080/');
